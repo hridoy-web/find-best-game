@@ -30,7 +30,7 @@ const ProductCard = ({ product }) => {
                 <p className="text-gray-600 font-medium">{description}</p>
 
                 <div className="card-actions justify-between mt-5">
-                    <h3 className="flex items-center font-semibold text-lg">Price: <FaDollarSign/>{price}</h3>
+                    <h3 className="flex items-center font-semibold text-lg">Price: <FaDollarSign size={15}/>{price}</h3>
                     <div className="btn btn-primary">Show Details</div>
                 </div>
             </div>

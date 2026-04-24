@@ -1,9 +1,10 @@
+import GamesPage from "./games/page";
 
 
 const HomePage = () => {
   return (
     <div>
-      this is HomePage
+      <GamesPage/>
     </div>
   );
 };
